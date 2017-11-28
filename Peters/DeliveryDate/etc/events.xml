@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/Event/etc/events.xsd">
+    <event name="controller_action_postdispatch_checkout_cart_add">
+        <observer name="peters_deliverydate_controller_action_postdispatch_checkout_cart_add" instance="Peters\DeliveryDate\Observer" />
+    </event>
+</config>
